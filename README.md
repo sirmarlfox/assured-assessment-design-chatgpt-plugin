@@ -2,6 +2,8 @@
 
 A consultative assessment-design plugin for educators. **This ChatGPT version is an adaptation of the Claude skill.** It preserves the complete workflow and assessment content of the [Claude version](https://github.com/sirmarlfox/assured-assessment-design-claude-skill), with the platform changes recorded in [ADAPTATION.md](ADAPTATION.md).
 
+It checks CAST UDL, the Inner Development Guide, TEQSA, OfS/Advance HE and the Scottish ScAITEN sector principles. Scottish regulatory sources, and Welsh and Northern Irish sources, are not yet covered in the baseline. It searches for local sources when the educator volunteers where they work, without adding a jurisdiction question or branching.
+
 It begins by checking current guidance, invites the educator's account of their situation, agrees what learning must be assured, then develops inclusive and workable options. It combines supervised, in-person and interactive assessment with open preparation or take-home work where appropriate.
 
 ## What it does
@@ -19,7 +21,7 @@ Institutional regulations, module approval rules and the educator's quality offi
 
 The main deliverable is a native plugin containing one instructional skill and its reference files. It requires no API key, external server or connected account.
 
-1. Open [Assured Assessment Design in ChatGPT](https://chatgpt.com/plugins/plugins_6b05514dee7c8191bb1f4812722bc0d4) if you have access to this saved personal plugin. For another account, download [the installable plugin ZIP](dist/assured-assessment-design-chatgpt-plugin-1.0.1.zip).
+1. Open [Assured Assessment Design in ChatGPT](https://chatgpt.com/plugins/plugins_6b05514dee7c8191bb1f4812722bc0d4) if you have access to this saved personal plugin. For another account, download [the installable plugin ZIP](dist/assured-assessment-design-chatgpt-plugin-1.0.2.zip).
 2. To install a copy from the ZIP, use Plugin Creator in ChatGPT and ask it to install the attached plugin ZIP. Where your workspace exposes manual plugin uploads, its upload interface is another route.
 3. Open the saved plugin and install/select it if ChatGPT prompts you. Start a conversation by mentioning **Assured Assessment Design**.
 4. Use a session with **web search available**. The plugin requires search and page/PDF retrieval for Step 0; account and workspace controls determine whether those tools are available. Its manifest cannot turn on a session's built-in search setting.
@@ -90,4 +92,4 @@ The licence notice and controlling legal-text link are in [LICENSE.md](LICENSE.m
 
 Original Claude repository: https://github.com/sirmarlfox/assured-assessment-design-claude-skill
 
-The original source file is pinned to commit [256bf13b2c793fcea3a780ce6f73843659138045](https://github.com/sirmarlfox/assured-assessment-design-claude-skill/blob/256bf13b2c793fcea3a780ce6f73843659138045/assured-assessment-design/SKILL.md). See [provenance/source.json](provenance/source.json) for its blob and SHA-256 checksums.
+The original source file is pinned to commit [5e84f6e653178881f20025ab072a4cc05ec84476](https://github.com/sirmarlfox/assured-assessment-design-claude-skill/blob/5e84f6e653178881f20025ab072a4cc05ec84476/assured-assessment-design/SKILL.md). See [provenance/source.json](provenance/source.json) for its blob and SHA-256 checksums.

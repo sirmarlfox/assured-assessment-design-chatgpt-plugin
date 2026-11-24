@@ -1,9 +1,9 @@
 {
   "repository": "https://github.com/sirmarlfox/assured-assessment-design-claude-skill",
-  "commit": "256bf13b2c793fcea3a780ce6f73843659138045",
+  "commit": "5e84f6e653178881f20025ab072a4cc05ec84476",
   "path": "assured-assessment-design/SKILL.md",
-  "blob_sha": "78c1f67985c4fa9763bf832b3d1ad078235b305a",
-  "sha256": "11bfc454aa8dc4f41cdd771e302bdbf5c51c8298827ccdb00f98c1fbe72b9ec2",
+  "blob_sha": "ce3e6060f1780e415172cbc8d6726d9b376e833b",
+  "sha256": "5110223fa86cdb9164e084978a5607711c16f5d07c6f6311af66b6577368abc4",
   "retrieved_on": "2026-11-24",
   "baseline_date": "2026-11-24",
   "snapshot": "upstream-SKILL.md",

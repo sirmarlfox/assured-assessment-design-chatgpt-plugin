@@ -36,6 +36,7 @@ Assured: Written in the room in response to a question students have not seen, s
 Scaling: Runs like any exam at any size. Marking time grows with the cohort, so keep the word count modest and the rubric short.
 Examples: Education: three readings on multilingual classrooms from India, Wales and Canada. Nursing: readings on person-centred care from different health systems. Politics: readings on climate negotiations from small island states compared with large economies.
 IDG: Being: Openness and Learning Mindset. Thinking: Critical Thinking, Perspective Skills, Creativity. Collaborating: Communication Skills.
+Source: Widely used format.
 
 ### 4. Annotated bibliography written in class (annotated-bibliography)
 Bands 1-4 | Understand, Analyse, Evaluate | Needs: [hall|lecture|seminar|lab]; locked-down devices if typing.
@@ -50,7 +51,7 @@ IDG: Being: Integrity and Authenticity. Thinking: Critical Thinking, Perspective
 Source: Widely used format, adapted for supervised conditions.
 
 ### 5. Scenario released in stages in class (staged-scenario)
-Bands 1-4 | Apply, Analyse, Evaluate | Needs: [hall|lecture|seminar]; polling tool optional.
+Bands 1-4 | Apply, Analyse, Evaluate | Needs: [hall|lecture|seminar].
 How: A scenario or case study is a realistic situation worked through using what students know. Here it is revealed a piece at a time, so students make decisions as new information arrives. At each stage they write down their decision and the reason, and hand in answers at the end.
 Inclusion: E Start each stage from a shared position, so one early decision does not affect the rest. E Base the case on situations students may meet in future work, with people and settings from a range of contexts. E Hold a debrief or reflection afterwards on what happened in the real case or what an expert would have done. R Share the opening scenario in advance. R Show each stage on screen and on paper. A Allow short written answers or structured choices with one line of reasoning.
 Marking: Mark the judgement and reasoning at each stage, not only the final outcome. For large groups, use structured choices plus one short justification per stage.
@@ -127,10 +128,11 @@ How: Groups plan and give a talk together, then each member answers their own li
 Inclusion: E Keep groups to two or three. E Present to assessors only. E Let groups agree roles in advance. E Ask each group to agree a short group contract early covering how they share work and solve conflict. R Share the types of question each member might get. R Explain in advance how individual and group marks are worked out. A Allow prompt cards or notes. A Let members choose which part they present. A Where outcomes allow, offer a supervised written response to the questions instead of answering aloud.
 Marking: Cannot be marked anonymously, so double-mark a sample (second assessor or recordings). An individual mark per member based on their own answers. Include at least one question on another member's section so everyone must understand the whole talk. A small group mark at most for the joint presentation.
 Process idea: A group planning session in an earlier supervised seminar; at the end each member hands in a short note on their part and how it fits the whole. Complete or incomplete, pass or fail, or graded with a separate rubric.
-Assured: Each member answers unseen questions live, so individual understanding is checked even though the presentation was prepared together. Same caveat as card 10 about presentations without questions.
+Assured: Each member answers unseen questions live, so individual understanding is checked even though the presentation was prepared together. Presentations are often run without questions. That still works if the learning outcome is about presenting, because of the live delivery. But the content is prepared in advance, so if the outcome is about understanding the subject, live questions are required to make it assured.
 Scaling: About 15 to 20 minutes per group of three, so faster per student than individual presentations. Up to 150 with extra assessors running parallel rooms.
 Examples: Marketing: a campaign pitch for a social enterprise in Ghana, each member questioned on their part such as audience, budget or message. Civil engineering: a design for a community water system, each questioned on cost, safety or upkeep. Sport science: a training plan for an older adults' walking group, each questioned on safety, motivation or progress.
 IDG: Relating: Appreciation. Collaborating: Co-Creation Skills, Relationship-Building Skills, Communication Skills. Acting: Courage.
+Source: Widely used format.
 
 ### 12. Poster session with live discussion (poster-session)
 Bands 1-3 | Understand, Analyse, Create | Needs: [seminar] (large room) AND [assessors].
@@ -142,6 +144,7 @@ Assured: The poster is not assured because it is made beforehand. The live conve
 Scaling: About 5 to 8 minutes per conversation. Up to 150 with several assessors in a large room and timed slots. Group posters or exhibitions scale further; to keep individual marks give each member their own questions, as in card 11.
 Examples: Chemistry: a poster on a green chemistry process, with questions on why it is greener and what scaling up would cost. Public policy: a poster on a housing policy from another country such as Singapore or Egypt, with questions on whether it would work locally. Linguistics: a poster on a language revival project such as Maori or Welsh, with questions on what helped and what held it back.
 IDG: Being: Presence. Thinking: Creativity. Collaborating: Communication Skills, Relationship-Building Skills.
+Source: Widely used format.
 
 ### 13. Oral exam or short viva (oral-exam)
 Bands 1-2 | Understand, Apply, Analyse, Evaluate | Needs: [seminar] (small room).
@@ -177,6 +180,7 @@ Assured: Decisions and log are made during the supervised session.
 Scaling: Software simulations with a log template can run up to about 150 in a computer lab. Live role plays need more staff and suit up to about 50. If you run several sittings, vary the scenario so details cannot be passed on.
 Examples: Business: a supply chain simulation during a shipping disruption, logging how stock is rerouted and costs managed as delays build. Pharmacy: a simulated consultation with a patient starting a new medicine, logging what they ask, what they explain and why. International relations: a simulated climate negotiation between delegations, logging offers made and compromises accepted.
 IDG: Being: Self-Awareness. Thinking: Systems Thinking, Long-Term Orientation and Visioning. Acting: Proactivity, Resilience.
+Source: Widely used format.
 
 ### 16. Small-group debate or moot (debate-moot)
 Bands 1-3 | Apply, Analyse, Evaluate, Create | Needs: [seminar].

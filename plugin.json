@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "assured-assessment-design-chatgpt-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An adaptation of the Claude skill for educators designing assured assessment. Consults on your situation, checks current guidance and develops inclusive supervised or interactive options, with assurance ratings, staffing maths and a practical plan.",
   "author": {
     "name": "Dr Gerhard Kristandl"

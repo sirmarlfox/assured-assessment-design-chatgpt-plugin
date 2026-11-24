@@ -1,10 +1,14 @@
 # Adaptation record
 
-Compared with the complete original file at commit 256bf13b2c793fcea3a780ce6f73843659138045, retrieved on 24 November 2026. No assessment source or feature has been added to the registry.
+Compared with the complete original file at commit 5e84f6e653178881f20025ab072a4cc05ec84476, retrieved on 24 November 2026. All upstream changes are incorporated, including the ScAITEN source-registry entries. No source or feature has been invented by this ChatGPT adaptation.
 
 ## Preserved without condensation
 
 The operating principles; assurance scale S1–S4; Step 1, Steps 3–6; M1–M10; Light/Medium/Structural options; playbooks A–L; Quick mode and matching rules; stress-test; delivery template; staffing formula and example; UDL layer; reviewer cautions; original opening and conditional output-credit text. Appendix A and Appendix B are separated into complete files with no content removed. Known weaknesses of the original finder remain in the executing instructions.
+
+## Upstream update in v1.0.2
+
+Compared upstream 256bf13 with 5e84f6e and applied every change: remote oral S2/S3 limits; supervised process evidence at S3; the opening basis line and voluntary local-source check; M7; online playbook E and its untested variants; Quick mode Bloom/open-lab guidance; ScAITEN coverage and source limitations; the Corbin bibliographic confirmation; practitioner-judgement wording; and all changes to cards 3, 5, 11, 12 and 15. The existing ChatGPT credit and reference-lookup blocks remain byte-for-byte unchanged. No jurisdiction question or branching was added.
 
 ## Platform changes
 
@@ -34,7 +38,7 @@ The plugin is not an independent search engine and cannot run Step 0 in the back
 The diff below excludes the two appendices only because they were moved, intact, into separate reference files. The validator separately compares both appendices with the pinned original.
 
 ```diff
---- original-workflow
+--- upstream-5e84f6e-workflow
 +++ chatgpt-workflow
 @@ -8,9 +8,43 @@
  A consultative guide that helps an educator work out where and how to assure that each student's own learning is observed, and then designs options that are inclusive, workable for the staff available, and grounded in the latest published guidance. It starts from a library of 20 assessment cards (Appendix A) but treats them as seeds, not as the answer.

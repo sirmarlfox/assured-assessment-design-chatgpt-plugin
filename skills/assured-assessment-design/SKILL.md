@@ -69,8 +69,8 @@ Is not: a legal or regulatory ruling for the user's institution, a decision abou
 ## Assurance strength scale (skill-added heuristic; use for every option)
 
 - **S1 Secure:** identity verified and conditions controlled (devices, materials, communication). Examples: invigilated exam, locked-down lab, OSCE stations, observed practical. Matches the "secure assessment" idea in regulator guidance.
-- **S2 Interactive:** live, in person, unseen questions or tasks that make the student reason in real time; devices need not be controlled. Examples: viva, interactive oral, pitch with questions, live code modification with explanation, debate. Sydney's framework treats interactive orals as secure assessments; treat remote versions as weaker because off-screen help is harder to rule out.
-- **S3 Observed:** supervised in the room on uncontrolled devices, with limited ability to see what tools are used. Good for pacing, deterrence and seeing process; weak where an AI tool can do the thinking.
+- **S2 Interactive:** live, in person, unseen questions or tasks that make the student reason in real time; devices need not be controlled. Examples: viva, interactive oral, pitch with questions, live code modification with explanation, debate. Sydney's framework treats interactive orals as secure assessments; a remote version is S2 at most (camera on, shared screen, unseen questions); where off-screen help cannot be ruled out, rate it S3.
+- **S3 Observed:** supervised in the room on uncontrolled devices, with limited ability to see what tools are used. Good for pacing, deterrence and seeing process; weak where an AI tool can do the thinking. Process work written or done under supervision in the room (the cards' process ideas) is also S3.
 - **S4 Evidence of process:** drafts, logs, version history, supervised plans, reflective accounts. Supports a judgement but does not assure on its own. TEQSA's June 2026 report calls process evidence a partial window into learning, not a foolproof method, and warns against surveillance that undermines agency and privacy.
 
 A useful design usually has at least one S1 or S2 touchpoint that carries meaningful weight (or a pass requirement) for each outcome that must be assured, with S3 and S4 supporting it.
@@ -85,7 +85,7 @@ If web search or fetch tools are available, run these checks in parallel and tim
 3. TEQSA gen AI assessment resources: latest items in the assessment reform series. (baseline listed in Appendix B).
 4. Office for Students and Advance HE: latest AI and assessment publications the OfS page on AI in higher education, and any QAA output on AI and award standards. Fetch the full PDFs listed in Appendix B rather than relying on summaries. (baseline listed in Appendix B).
 5. One scenario search once you know the user's situation (for example "interactive oral assessment take-home", "secure assessment programming course"). Run it after Step 2.
-6. If the user's jurisdiction is not England or Australia, find the national regulator or sector body's equivalent (ask where they work if unknown).
+6. Jurisdiction: if the user names where they work, search for that place's regulator or sector body and label what you find as searched, not baseline. For Scotland, check the ScAITEN statement of principles page for a newer version. Do not ask about jurisdiction up front; the opening basis line (Step 1) invites it.
 
 Rules:
 - Use available ChatGPT web search and page/PDF retrieval tools, including the known primary-source URLs in Appendix B. If a page or PDF cannot be retrieved, say so; label any search-result-only evidence and do not imply the full source was read.
@@ -98,7 +98,7 @@ Rules:
 
 ## Step 1: Orient and invite the story
 
-Open with one credit line: "Built on the Assured Assessment 'Grab Bag' by Dr Viktoria Mileva SFHEA (CC BY-NC 4.0, https://claude.ai/artifact/Ry33gaHyiuXqDC7SsATyoh); consultative workflow, scenario playbooks and live source-checking added by Dr Gerhard Kristandl, University of Greenwich Business School." Then open in two or three sentences: you will help work out where learning can be assured, using regulator guidance, research and a card library, and you would like to hear their situation in their own words. Invite messy input: what the module or course is, what students currently do, what worries them. Do not start with a questionnaire. If the user just wants quick ideas, switch to Quick mode (end of Step 4).
+Open with one credit line: "Built on the Assured Assessment 'Grab Bag' by Dr Viktoria Mileva SFHEA (CC BY-NC 4.0, https://claude.ai/artifact/Ry33gaHyiuXqDC7SsATyoh); consultative workflow, scenario playbooks and live source-checking added by Dr Gerhard Kristandl, University of Greenwich Business School." Then add one basis line, adapted to what Step 0 found: "This advice draws on regulator guidance from England (OfS and Advance HE) and Australia (TEQSA), Scottish sector principles (ScAITEN), CAST UDL, the Inner Development Guide and published scholarship, checked on [date]. Tell me where you work if you want local sources checked." Do not add a jurisdiction question or branching; answer specifics when the user asks. Then open in two or three sentences: you will help work out where learning can be assured, using regulator guidance, research and a card library, and you would like to hear their situation in their own words. Invite messy input: what the module or course is, what students currently do, what worries them. Do not start with a questionnaire. If the user just wants quick ideas, switch to Quick mode (end of Step 4).
 
 ## Step 2: Build the situation model
 
@@ -125,7 +125,7 @@ Summarise in four or five lines: the claim to assure, the current task, the cons
 - **M4 Split:** separate assured and open components and weight them explicitly, optionally with a pass requirement on the assured part. Design the open part for AI rather than against it, for example critiquing an AI output or editing an AI-generated draft (both reports in Appendix B describe this); stage gates are a related process-based design.
 - **M5 Prepare:** open, AI-permitted preparation that feeds an assured task: seen questions, released readings, a dataset context, a case brief (cards 1, 2, 3, 4).
 - **M6 Vary:** the assured task uses an unseen variant: new data, a changed requirement, a new constraint, a new question on the same topic.
-- **M7 Evidence:** supervised plans, sketches, logbooks, version history or reflective accounts (the cards' process ideas). S4 only.
+- **M7 Evidence:** supervised plans, sketches, logbooks, version history or reflective accounts (the cards' process ideas). Rate S3 when done under supervision in the room, as the cards specify; rate S4 when unsupervised (drafts, logs, version history).
 - **M8 Sequence across the programme:** place secure points at key transitions rather than in every unit.
 - **M9 Hurdle:** a secure unit-level task that must be passed.
 - **M10 Sample and verify:** oral verification of a sample. Fairness warning: sampling or triggering on suspicion can be inequitable and harder to defend; designing the same check for all students is usually fairer. The OfS and Advance HE report adds that misconduct processes are slow and stressful, cannot fix validity retrospectively, and that suspicion without strong evidence should not lower a mark.
@@ -147,7 +147,7 @@ For each option give: what students do and when; where the assured moment sits a
 
 **D. Large cohort and little staff time.** Do the staffing maths first (formula below). Candidates: cards 1, 2, 5, 6, 7, 8, 9, 17, 20 scale well; live formats need parallel rooms and extra assessors (cards 11, 12, 19). TEQSA warns that unit-level secure tasks create scheduling, supervision and documentation overhead; consider programme-level sequencing (M8).
 
-**E. Online, distance or part-time cohort.** Candidates: online interactive orals (weaker than in person, check for off-screen help); in-person checkpoints at residentials or partner sites; proctored exams only where regulations and equity allow. Flag privacy, access and time-zone equity issues.
+**E. Online, distance or part-time cohort.** Candidates: online interactive orals (S2 at most with camera on and shared screen, S3 if off-screen help cannot be ruled out); in-person checkpoints at residentials or partner sites; proctored exams only where regulations and equity allow. Skill-added and untested: a live online defend-and-extend (the student answers a new question on their own submission, camera on, with a short unseen follow-up), and a seen-question oral drawn from a question bank. None of the 20 cards was designed for online delivery, so say that the options here are thinner and rely on adapting cards (10, 13, 18) to a remote format. Flag privacy, access and time-zone equity issues.
 
 **F. Practical, studio, lab or performance.** Candidates: OSCE or OSPE stations (card 14), live demonstration (card 18), simulation with decision log (card 15), poster conversation (card 12).
 
@@ -164,7 +164,7 @@ For each option give: what students do and when; where the assured moment sits a
 **L. Nothing here fits.** Reason from first principles: state the claim; list who or what could substitute for the student in each stage; find the point where the student must perform the key outcome in real time or in a controlled setting; design the smallest assured moment that captures it; then check inclusion and workload.
 
 ### Quick mode (only when asked)
-Ask three things (cohort size, levels of thinking, rooms and staff), rank cards by: cohort band fits; provisions fit; share of requested Bloom levels covered, stated honestly (never call a partial match a full fit). Break ties for variety of format (written in the room, live or oral, practical or observed, collaborative). Show three, offer the full card, and say that this is a starting point, not a diagnosis; offer to move into the full conversation. Card matching rules: cohort bands are 1 up to 15, 2 16 to 50, 3 51 to 150, 4 over 150; provisions are hall, lecture, seminar, lab (computer lab with locked-down devices), practical, assessors, none; each need group must be met by any one option.
+Ask three things (cohort size, levels of thinking, rooms and staff), rank cards by: cohort band fits; provisions fit; share of requested Bloom levels covered, stated honestly (never call a partial match a full fit). Break ties for variety of format (written in the room, live or oral, practical or observed, collaborative). Show three, offer the full card, and say that this is a starting point, not a diagnosis; offer to move into the full conversation. Card matching rules: cohort bands are 1 up to 15, 2 16 to 50, 3 51 to 150, 4 over 150; provisions are hall, lecture, seminar, lab (computer lab with locked-down devices), practical, assessors, none; each need group must be met by any one option. The Bloom tags show the levels a task is especially good at assessing, not every level it touches; do not read a missing tag as "cannot assess". The card library's "lab" means a computer lab with locked-down devices. If the user has an ordinary lab with open devices, treat it like a seminar room, flag S3 for anything done on those devices, and offer to move to the full conversation (Playbook B).
 
 ## Step 5: Stress-test the preferred option
 
@@ -207,4 +207,4 @@ Use CAST UDL principles as the lens (version per Step 0): Engagement (the why), 
 ## Known weaknesses of the original Grab Bag page (so this plugin does not repeat them)
 - Static data and no update path, which is why Step 0 exists.
 - Its finder scored additively and shuffled randomly, labelled partial Bloom matches as full fits, rarely ranked a non-fitting task above a fitting one, and its "three different ones" button could repeat tasks.
-- Each inclusion idea carries one UDL principle only; Bloom, cohort and staff-time statements are asserted without evidence.
+- Each inclusion idea carries one UDL principle only; Bloom, cohort and staff-time statements are practitioner judgement, not yet evaluated.
