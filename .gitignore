@@ -1,0 +1,18 @@
+# Local caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Local download/working files
+.local/
+
+# dist/*.zip is deliberately tracked as the installable release.

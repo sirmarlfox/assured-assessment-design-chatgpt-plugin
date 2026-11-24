@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "assured-assessment-design-chatgpt-plugin",
+  "version": "1.0.1",
+  "description": "An adaptation of the Claude skill for educators designing assured assessment. Consults on your situation, checks current guidance and develops inclusive supervised or interactive options, with assurance ratings, staffing maths and a practical plan.",
+  "author": {
+    "name": "Dr Gerhard Kristandl"
+  },
+  "homepage": "https://github.com/sirmarlfox/assured-assessment-design-chatgpt-plugin",
+  "repository": "https://github.com/sirmarlfox/assured-assessment-design-chatgpt-plugin",
+  "license": "CC-BY-NC-4.0",
+  "keywords": [
+    "assessment",
+    "higher education",
+    "assured learning",
+    "UDL",
+    "academic integrity",
+    "assessment design"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Assured Assessment Design",
+        "shortDescription": "Inclusive assured assessment",
+        "longDescription": "An adaptation of the Claude skill for educators designing assured assessment. Consults on your situation, checks current guidance and develops inclusive supervised or interactive options, with assurance ratings, staffing maths and a practical plan. Preserves Steps 0\u20136, moves M1\u2013M10, scenarios A\u2013L, Quick mode and the original 20-card library. Step 0 uses the session's web search tools; if unavailable, it discloses the baseline date, 24 November 2026.",
+        "developerName": "Dr Gerhard Kristandl",
+        "category": "Education & Research",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Help me redesign a take-home assessment while keeping an in-person endpoint.",
+          "My students use an IT lab without locked-down computers. How can I assure their learning?",
+          "I have a large cohort and limited staff time. Help me find workable assessment options."
+        ],
+        "brandColor": "#294C63",
+        "brandColorDark": "#FFB000"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Assured Assessment Design"
+  short_description: "Design inclusive, assured learning with current guidance"
+  default_prompt: "Use $assured-assessment-design to help me design assured assessment for my teaching situation."
+  brand_color: "#294C63"
+policy:
+  allow_implicit_invocation: true
